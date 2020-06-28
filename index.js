@@ -14,6 +14,7 @@ function increaseRankBy(n){
  }
 }
 */
+/*
 function increaseRankBy(n){
   const rankedLists = document.querySelectorAll('.ranked-list')
   const firstList = rankedLists[0]
@@ -35,6 +36,7 @@ function increaseRankBy(n){
     parseInt(children[i].innerHTML) = start + i + parseInt(n);
   }
 }
+*/
 
 function deepestChild(){
   return document.querySelector('#grand-node div div div div');
