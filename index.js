@@ -24,7 +24,7 @@ function increaseRankBy(n){
 
   expect(children.length).to.equal(2);
   for (let i = 0, l = children.length; i < l; i++) {
-    expect(parseInt(children[i].innerHTML)).to.equal(start + i + parseInt(n))
+    parseInt(children[i].innerHTML) = start + i + parseInt(n);
   }
 
   children = secondList.children
@@ -32,7 +32,7 @@ function increaseRankBy(n){
 
   expect(children.length).to.equal(3);
   for (let i = 0, l = children.length; i < l; i++) {
-    expect(parseInt(children[i].innerHTML)).to.equal(start - i + parseInt(n))
+    parseInt(children[i].innerHTML) = start + i + parseInt(n);
   }
 }
 
