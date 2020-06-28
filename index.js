@@ -6,14 +6,14 @@ function nestedTarget(){
   return document.querySelector('#nested .target');
 }
 
-/*
+
 function increaseRankBy(n){
  const list = document.querySelectAll('.ranked-list');
  for (let i = 0; i < list.length; i++){
-   list[i].innerHTML = list[i].innerHTML + parseInt(n);
+   list[i].innerHTML = (list[i].innerHTML + n).toString();
  }
 }
-*/
+
 /*
 function increaseRankBy(n){
   const rankedLists = document.querySelectorAll('.ranked-list')
