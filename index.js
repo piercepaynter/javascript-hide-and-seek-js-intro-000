@@ -6,23 +6,14 @@ function nestedTarget(){
   return document.querySelector('#nested .target');
 }
 
-/*
 function increaseRankBy(n){
  const list = document.querySelectorAll('.ranked-list');
 
  for (let i = 0; i < list.length; i++){
-   list[i].innerHTML = ((parseInt(list[i].innerHTML)) + n);
+   list[i].innerHTML = parseInt(list[i].innerHTML) + n;
  }
 }
-*/
-function increaseRankBy(n){
-  const upRank = document.getElementById('app').querySelectorAll('ul.ranked-list')
 
-  for (let i = 0; i < upRank.length; i++){
-    upRank[i].innerHTML = ((parseInt(upRank[i].innerHTML)) + n)
-    }
-
-}
 /*
 function increaseRankBy(n){
   const rankedLists = document.querySelectorAll('.ranked-list')
