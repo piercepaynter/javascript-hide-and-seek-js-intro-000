@@ -1,12 +1,7 @@
 function getFirstSelector(selector) {
   return document.querySelector(selector);
 }
-/*
-function nestedTarget(){
-  var container = document.querySelector('#nested .target');
-  return document.querySelector('#nested .target');
-}
-*/
+
 function nestedTarget(){
   var container = document.querySelector('#nested');
   return container.querySelector('.target');
