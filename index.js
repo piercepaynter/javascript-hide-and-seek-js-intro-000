@@ -6,7 +6,7 @@ function nestedTarget(){
   return document.querySelector('#nested .target');
 }
 
-
+/*
 function increaseRankBy(n){
  const list = document.querySelectorAll('.ranked-list');
 
@@ -14,6 +14,7 @@ function increaseRankBy(n){
    list[i].innerHTML = ((parseInt(list[i].innerHTML)) + n);
  }
 }
+*/
 
 /*
 function increaseRankBy(n){
